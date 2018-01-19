@@ -1,0 +1,282 @@
+.login-box{
+	width: 100%;
+	height: 495px;
+	background:url(../images/login1.jpg) no-repeat left -86px top 0;
+	background-color: #c01f02;
+	border-top: 4px solid #a71f24;
+}
+
+.login-box .login-con{
+	width: 950px;
+	height: 100%;
+	margin: 0 auto;
+}
+.login-box .login-con> a{
+	width: 620px;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.login-box .login-con .layout{
+	width: 330px;
+	height: 470px;
+	float: right;
+	margin-top: 10px;
+	background-color: #fff;	
+}
+.login-box .login-con .layout .t-login{
+	width: 330px;
+	height: 335px;
+	padding: 0 10px;
+}
+.login-box .login-con .layout .t-login h3{
+	width: 100%;
+	font-size: 18px;
+	margin:  15px 0;
+	height: 40px;
+	line-height: 40px;
+}
+.login-box .login-con .layout .t-login .account{
+	width: 100%;
+	height: 62px;
+	position: relative;
+}
+
+
+.login-box .login-con .layout .t-login .pasw{
+	width: 100%;
+	height: 62px;
+	position: relative;
+}
+.login-box .login-con .layout .t-login .pasw input{
+	width: 302px;
+	height: 40px;
+	padding-left: 30px;
+	line-height: 22px;
+	color: #999999;
+	border:1px solid #CACACA;
+}
+.login-box .login-con .layout .t-login .account input{
+	width: 302px;
+	height: 40px;
+	padding-left: 30px;
+	line-height: 22px;
+	color: #999999;
+	border:1px solid #CACACA;
+}
+.login-box .login-con .layout .t-login .account .log{
+	position: absolute;
+	font-size: 26px;
+	display: block;
+	color: #9D9D9D;
+	top: 6px;
+	left: 0;
+}
+.login-box .login-con .layout .t-login .pasw .log{
+	position: absolute;
+	font-size: 18px;
+	display: block;
+	color: #9D9D9D;
+	top: 10px;
+	left: 0;
+}
+.login-box .login-con .layout .t-login .autologin{
+	width: 100%;
+	height: 40px;
+	font-size: 12px;
+	color: #656567;
+}
+.login-box .login-con .layout .t-login .autologin .check{
+	display: block;
+	margin-top: 4px;
+	margin-right: 4px;
+	float: left;
+}
+
+.login-box .login-con .layout .t-login .autologin span a{
+	display: block;
+	color: #0033CC;
+	float: right;
+}
+.login-box .login-con .layout .t-login .autologin .doubt{
+	color: #ED9E24;
+}
+.login-box .login-con .layout .t-login .login-btn{
+	background-color:#df030a;
+	border:0 none; 
+	width: 100%;
+	height: 38px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 800;
+	cursor: pointer;
+}
+.login-box .login-con .layout .t-login p{
+	margin-top: 10px;
+	font-size: 12px;
+	float: right;
+	color: #656567;
+}
+.login-box .login-con .layout .t-login p a{
+	color: #0033CC;
+}
+.login-box .login-con .layout .way{
+	height: 80px;
+	width: 100%;
+	margin-top: 20px;
+	padding: 0 10px;
+	font-size: 12px;
+	color:  #656567;
+}
+.login-box .login-con .layout .way a{
+	color: #1675BE;
+}
+.login-box .login-con .layout .way .xl{
+	width: 50px;
+	height: 50px;
+	display: block;
+	float: left;
+	margin-right: 30px;
+	margin-top: 10px;
+	background: url(../images/links.png) no-repeat 0 0;
+}
+.login-box .login-con .layout .way .xl:hover{
+	background: url(../images/links.png) no-repeat 0 -58px;
+}
+.login-box .login-con .layout .way .qq{
+	width: 50px;
+	height: 50px;
+	display: block;
+	float: left;
+	margin-right: 20px;
+	margin-top: 10px;
+	background: url(../images/links.png) no-repeat -60px 0;
+}
+.login-box .login-con .layout .way .qq:hover{
+	background: url(../images/links.png) no-repeat -60px -58px;
+}
+.login-box .login-con .layout .way .tm{
+	width: 70px;
+	height: 50px;
+	display: block;
+	float: left;
+	margin-top: 10px;
+	background: url(../images/links.png) no-repeat -118px 0;
+}
+.login-box .login-con .layout .way .tm:hover{
+	background: url(../images/links.png) no-repeat -118px -58px;
+}
+/*footer*/
+.footer{
+	width: 950px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.footer .foot-banner{
+	width: 100%;
+	height: 86px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	background: url(../images/footer.png) no-repeat 0 -36px;
+}
+.footer .foot-banner .post{
+	margin-top: 20px;
+	line-height: 40px;
+	margin-left: 30px;
+	width: 50px;
+	float: left;
+	display: block;
+}
+.footer .foot-banner .tom{
+	margin-top: 20px;
+	line-height: 40px;
+	margin-left: 20px;
+	width: 120px;
+	float: left;
+	display: block;
+}
+
+.footer .foot-banner .quality{
+	margin-top: 20px;
+	line-height: 40px;
+	margin-left: 70px;
+	width: 160px;
+	float: left;
+	display: block;
+}
+.footer .foot-banner .qalityu{
+	margin-top: 20px;
+	line-height: 40px;
+	margin-left: 100px;
+	width: 160px;
+	float: left;
+	display: block;
+}
+.footer .foot-help{
+	width: 100%;
+	padding: 10px 0 20px;
+	text-align: left;
+	border-bottom: 1px solid #dddddd;
+}
+.footer .foot-help ul{
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+.footer .foot-help li{
+	width:156px;
+	margin-left: 8px;
+	float: left;
+	overflow: hidden;
+}
+.footer .foot-help li h4{
+	height: 28px;
+	display: block;
+	margin-bottom: 6px;
+	border-bottom: 1px dashed #dddddd;
+	line-height: 22px;
+	font-size: 14px;
+	color: #666666;
+}
+.footer .foot-help li a{
+	width: 120px;
+	line-height: 22px;
+	font-size: 12px;
+	display: block;
+}
+.footer .foot-help .about{
+	width: 120px;
+	float: left;
+	overflow: hidden;
+}
+.footer .foot-help .about h4{
+	width: 120px;
+	height: 28px;
+	display: block;
+	border-bottom: 1px dashed #dddddd;
+	line-height: 22px;
+}
+.footer .foot-link {
+	font-size: 12px;
+	margin-top: 10px;
+}
+.footer .foot-link p{
+	height: 22px;
+	color: #666;
+	line-height: 22px;
+	display: block;
+}
+.footer .foot-link .icolink{
+	width: 100%;
+	height: 34px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	background: url(../images/footer1.png) no-repeat 0 0;
+}
+.footer .foot-link .icolink a{
+	width: 100px;
+	height: 34px;
+	float: left;
+	display: block;
+	margin-right: 5px;
+}

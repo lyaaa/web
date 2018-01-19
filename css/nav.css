@@ -1,0 +1,208 @@
+*{margin: 0;padding: 0;box-sizing:border-box;}
+ul,li{list-style: none;}
+body{font-family: "微软雅黑",arial;font-size: 14px;}
+@font-face {
+	font-family: 'iconfont';
+	src: url('../fonts/iconfont.eot');
+	src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/iconfont.woff') format('woff'),
+	url('../fonts/iconfont.ttf') format('truetype'),
+	url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family:"iconfont" !important;
+	font-size:16px;font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+.navbg{
+	width: 100%;
+	height:40px;
+	background-color: #b00002;
+}
+
+.nav_box{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: #b92525;
+	position: relative;
+}
+.nav_box .nav_left{
+	width: 190px;
+	height: 100%;
+	float: left;
+	background-color: #b92525;
+	position: relative;
+}
+.nav_box .nav_left h3 a{
+	text-decoration: none;
+	line-height: 38px;
+	color: #fff;
+	padding-left: 42px;
+	float: left;
+}
+.nav_box .nav_left .a{
+	top: 10px;
+	float: left;
+	left: 16px;
+	color: #fff;
+	display: block;
+	position: absolute;
+	font-size: 18px;
+}
+.nav_box .nav_left .b{
+	top: 10px;
+	float: left;
+	right: 14px;
+	color: #fff;
+	display: block;
+	position: absolute;
+	font-size: 18px;
+}
+.nav_box .nav_left:hover{
+	background-color: #c52e15;
+}
+.nav_box .nav_menu{
+	width: 820px;
+	height: 100%;
+	float: left;
+	background-color: #b92525;
+}
+.nav_box .nav_menu li{
+	float: left;
+	line-height: 40px;
+}
+.nav_box .nav_menu .new{
+	position: relative;
+}
+.nav_box .nav_menu .new> img{
+	width: 25px;
+	height: 27px;
+	position: absolute;
+	top: -14px;
+	left: 54px;
+	display: block;
+}
+.nav_box .nav_menu li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0 20px;
+	 display: block;
+}
+.nav_box .nav_menu li a:hover{
+	background-color:#6c0709;
+}
+.nav_box .nav_menu  .text_down{
+	width: 100px;
+	height: 100%;
+	z-index: 11;
+	position: relative;
+}		
+.nav_box .nav_menu li:hover .text_down a{
+	background-color: #fff;
+	border-bottom: 1px solid  #fff;
+	color: #b92525;
+}
+.nav_box .nav_menu li .text_down .c{
+	position: absolute;
+	top: 2px;right: 10px;
+	font-size: 12px;
+}
+.nav_box .nav_menu li:hover .text_down .c{
+	transform:rotate(180deg);
+}
+.nav_box .nav_menu li .dorpdown{
+	position: absolute;
+	top:39px;left: 0; 
+	width: 1200px;
+	height: 180px;
+	background-color: #fff;
+	border:1px solid red;
+	display: none;
+	z-index: 10;
+}
+.nav_box .nav_menu li:hover .dorpdown{
+	display: block;
+	z-index: 10;
+}
+.nav_box .nav_menu li .dorpdown .dc{
+	width: 398px;
+	height: 100%;
+	float: left;
+}
+.nav_box .nav_menu li .dorpdown .dc a img{
+	float: left;
+	margin-top: 25px;
+	margin-left: -16px;
+}
+.nav_box .nav_menu li .dorpdown .dc  a{
+	color: #999999;
+}
+.nav_box .nav_menu li .dorpdown .dc a:hover {
+	background-color: #fff;
+}
+.nav_box .nav_menu li .dorpdown .dc a label{
+	display: block;
+	text-align: left;
+	cursor: pointer;
+	padding-top: 48px;
+	padding-left: 130px;
+}
+.nav_box .nav_menu li .dorpdown .dc a strong{
+	display: block;
+	font-size: 16px;
+	line-height: 24px;
+}
+.nav_box .nav_menu li .dorpdown .dc a:hover strong{
+	color: #c52e15;
+}
+.nav_box .nav_menu li .dorpdown .dc a span{
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+}
+.nav_box .nav_menu li .dorpdown .dc a:hover span{
+	color: #333333;
+}
+
+/*.nav_box .nav_menu li .dorpdown .dc1 label{
+	float: left;
+}*/
+.nav_box .nav_menu li .dorpdown .dc2{
+	width: 398px;
+	height: 100%;
+	float: left;
+}
+.nav_box .nav_menu li .dorpdown .dc2 a img{
+	float: left;
+	margin-top: 25px;
+	margin-left: -16px;
+}
+.nav_box .nav_menu li .dorpdown .dc2  a{
+	color: #999999;
+}
+.nav_box .nav_menu li .dorpdown .dc2 a:hover {
+	background-color: #fff;
+}
+.nav_box .nav_menu li .dorpdown .dc2 a label{
+	display: block;
+	text-align: left;
+	cursor: pointer;
+	padding-top: 48px;
+	padding-left: 130px;
+}
+.nav_box .nav_menu li .dorpdown .dc2 a strong{
+	display: block;
+	font-size: 16px;
+	line-height: 24px;
+}
+.nav_box .nav_menu li .dorpdown .dc2 a span{
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+}
+.nav_box .nav_menu li .dorpdown .dc2 a:hover span{
+	color: #333333;
+}
